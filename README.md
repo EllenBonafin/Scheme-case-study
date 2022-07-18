@@ -11,3 +11,12 @@
  
   Scheme foi uma das primeiras linguagens de programação a introduzir o lambda cálculo nos metodos da classe principal. Também possibilita a usabilidade de regras de escopo estático e estruturas em bloco em uma linguagem tipada
 
+# 📌Objetivos, Contextualização e Características
+
+Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural.
+
+
+## Paradigma 
+Como o Scheme é uma linguagem de programação multiparadigma  o paradigma funcional é de ação que trata como uma avaliação de funções matemáticas, ele evita estados mutáveis e enfatiza funções, em contraste da programação imperativa, que reforça mudanças no estado do programa.
+
+O paradigma procedural é utilizado muitas vezes como sinônimo de programação imperativa, que especifica os passos que deve seguir para atingir um estado , mas o termo procedural indica que se baseia no numero de chamadas de procedimentos, também conhecidos como rotinas, sub-rotinas ou funções (diferentes das funções matemáticas). Atenta-se que tais procedimentos são similares à avaliação realizada na programação funcional, sendo um conjunto de passos computacionais a serem executados, podendo ser chamado a qualquer hora durante a execução do programa, através de outros procedimentos e até por si mesmo.
