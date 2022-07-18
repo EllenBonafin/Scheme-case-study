@@ -15,6 +15,7 @@
 
 Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural.
 
+## Algumas Caracteristicas 
 
 ## Paradigma 
 Como o Scheme é uma linguagem de programação multiparadigma  o paradigma funcional é de ação que trata como uma avaliação de funções matemáticas, ele evita estados mutáveis e enfatiza funções, em contraste da programação imperativa, que reforça mudanças no estado do programa.
