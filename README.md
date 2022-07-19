@@ -27,3 +27,18 @@ Como o Scheme é uma linguagem de programação multiparadigma  o paradigma func
 O paradigma procedural é utilizado muitas vezes como sinônimo de programação imperativa, que especifica os passos que deve seguir para atingir um estado , mas o termo procedural indica que se baseia no numero de chamadas de procedimentos, também conhecidos como rotinas, sub-rotinas ou funções (diferentes das funções matemáticas). Atenta-se que tais procedimentos são similares à avaliação realizada na programação funcional, sendo um conjunto de passos computacionais a serem executados, podendo ser chamado a qualquer hora durante a execução do programa, através de outros procedimentos e até por si mesmo.
 
 -> Existem dois padroes que definem a lingugem: O padrão IEEE P1178 e um padrão popular chamado RnRs
+
+# Tour pela lingugem 
+
+## Instalação
+
+## Tipos de dados básicos
+
+## palavras-chave
+
+## Operadores
+
+## sentenças
+
+## funções da linguagem Scheme
+
