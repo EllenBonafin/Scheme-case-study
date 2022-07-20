@@ -16,10 +16,13 @@ Os primórdios da linguagem Scheme ocorreram entre 1975 e 1980, quando foi descr
 Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural.
 
 ## Algumas Caracteristicas 
--> Sua Flexibilidade é garantida devido a ausencia de restriçoes tornando dessa forma seu porder ilimitado
--> Utilização de sistemas de recursão 
--> Fortemente tipada
--> Lingugem multiparadigma utilizando o paradigma funcional e procedual 
+Sua Flexibilidade é garantida devido a ausencia de restriçoes tornando dessa forma seu porder ilimitado
+
+Utilização de sistemas de recursão 
+
+Fortemente tipada
+
+Lingugem multiparadigma utilizando o paradigma funcional e procedual 
 
 Possui boa capacidade de leitura devido a sua simplicidade, por possuir um pequeno conjunto de regras ha a capaciadde de compolas assim tornando uma linguagem confiavel e poderosa 
 
