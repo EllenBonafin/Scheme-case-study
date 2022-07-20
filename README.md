@@ -38,13 +38,13 @@ O paradigma procedural é utilizado muitas vezes como sinônimo de programação
 ## Instalação
 
 ## Tipos de dados básicos
-•Boolean
+- Boolean
 
 #t=True - Qualquer coisa diferente de zero e lista vazia 
 
 #f=False - Zero ou lista vazia 
 
-•Numbers
+- Numbers
 
 Numero   = ex: 22
 
@@ -58,13 +58,45 @@ Inteiro = ex: 23
 
 Numero=Complex=Real=Racional=Inteiro
 
-•Caracteres 
+- Caracteres 
 
 São representados pelo prefixo #\
 
 #\c = caracatere
 
 #\New Line e  #\space = espaço em branco
+
+- Symbols 
+
+Tratados como identificadores de variaveis, para especificarmos um symbolo usamos a palavra reservada QUOTE ou aspas simples antes do símbolo 
+
+Ex: quote(xyz)  ou `E
+
+- Strings 
+
+Não é um tipo simples, ou seja, primitivo como os anteriores, é composta pela combinação de caracteres sendo assim uma sequencia de caracteres de modo estruturado e ente aspas dulpas "".
+
+Ex: (string #\o #\l #\a) ou "Ola"
+
+- Vetores 
+São sequencias como as strings mas seus elementos podem ser uma sequencia de qualquer tipo e não apenas de caracteres 
+
+Ex: (vector 01234)
+
+- Dotted pair 
+É composto de dois valores arbritarios, sendo o primeiro chamado de car e o segundo de cdr e sua combinaçaão é realizada com a palavra reservada cons 
+
+Ex: (cons 1 #t)
+
+- Listas 
+
+Podem ser construidas simplismente colocando os valores desejados entre parenteses e utilizando aspa simples antes do primeiro parentese ou utilizando a palvra reservada list
+
+LISTAS PODEM CONTER QUALQUER VALOR INCLUSIVE LISTA DE LISTA 
+
+Ex: >`(246810)  ou >(list 249810)
+
+
 
 ## palavras-chave
 
