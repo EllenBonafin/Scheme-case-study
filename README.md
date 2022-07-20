@@ -38,6 +38,33 @@ O paradigma procedural é utilizado muitas vezes como sinônimo de programação
 ## Instalação
 
 ## Tipos de dados básicos
+•Boolean
+
+#t=True - Qualquer coisa diferente de zero e lista vazia 
+
+#f=False - Zero ou lista vazia 
+
+•Numbers
+
+Numero   = ex: 22
+
+Complex  = ex: (2+3i)
+
+Real     = ex: (2,8954)
+
+Racional = ex: (2,8954) (22/2)
+
+Inteiro = ex: 23
+
+Numero=Complex=Real=Racional=Inteiro
+
+•Caracteres 
+
+São representados pelo prefixo #\
+
+#\c = caracatere
+
+#\New Line e  #\space = espaço em branco
 
 ## palavras-chave
 
