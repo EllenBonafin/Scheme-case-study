@@ -15,7 +15,7 @@ Os primórdios da linguagem Scheme ocorreram entre 1975 e 1980, quando foi descr
 
 Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural.
 
-## Algumas Caracteristicas 
+## Algumas Características 
 Sua Flexibilidade é garantida devido a ausência de restrições tornando dessa forma seu porder ilimitado.
 
 Utilização de sistemas de recursão.
@@ -98,11 +98,40 @@ Ex: >`(246810)  ou >(list 249810)
 
 
 
-## palavras-chave
+## Palavras-chave
 
 ## Operadores
 
-## sentenças
+## Sentenças
 
-## funções da linguagem Scheme
+## Features da linguagem Scheme
+• r7rs: a implementação declara implementar corretamente o padrão R7RS.
 
+• exact-closed: todas as operações algébricas com exatos (exceto /) resultam em
+números exatos.
+
+• ratios: A operação / com argumentos exatos produz um resultado exato quando o
+divisor não é zero (ou seja, a implementação suporta frações exatas).
+
+• exact-complex: a implementação suporta números complexos exatos.
+
+• ieee-float: números inexatos são representados como no padrão IEEE 754.
+
+• full-unicode: todos os codepoints Unicode são suportados como caracteres.
+
+• windows: a implementação de Scheme está rodando em um sistema Windows.
+
+• posix: a implementação de Scheme está rodando em um sistema POSIX.
+
+• unix, darwin, linux, bsd, freebsd, solaris, ... : descreve o tipo de sistema
+operacional.
+
+• i386, x86-64, ppc, sparc, jvm, clr, llvm, ... : descvreve a arquitetura da CPU.
+
+• ilp32, lp64, ilp64, ... : descreve o modelo de memória C.
+
+• big-endian, little-endian: descreve a ordem de bytes ao representar palavras.
+
+• nome: o nome da implementação Scheme.
+
+• nome-versao: nome e versão da implementação Scheme.
