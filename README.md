@@ -114,13 +114,13 @@ IF : (if(<ab)(squarea squareb)) ou
     (if(>x1 x2)(<x2x3)
     
  COND: 
+ ```
   (Cond (condicao1 consequencia1)
         (condicao2 consequancia2)
         
-        .
-        .
-        .
+    
         (else alternativa))
+ ```
         
  CASE:
  (case arg expr1 expr2 expr3...)
@@ -133,16 +133,21 @@ IF : (if(<ab)(squarea squareb)) ou
  Utilizamos a palavra reservada define para declarar variaveis globais
  E a SET para alterar variaveis.
  
- Ex: (define a 23)
+ Ex: 
+ ```
+ (define a 23)
      (set! a 6)
-     
+ ``` 
 - Let
 Da mesma forma que os argumentos de um procedimento podem ser usados apenas dentro do corpo do procedimento, é possível criar variáveis temporárias acessíveis apenas
 dentro de um trecho de programa Scheme usando a forma especial let.
 
-Ex: ( let (( nome1 valor1)
+Ex: 
+```
+( let (( nome1 valor1)
             ( nome2 valor2)
             ...)
+ ```
 
 ## Palavras-chave
 
