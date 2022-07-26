@@ -14,6 +14,12 @@ Os primórdios da linguagem Scheme ocorreram entre 1975 e 1980, quando foi descr
 # 📌Objetivos, Contextualização e Características
 
 Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural.
+# Ambiente de programação
+
+Muitas linguagens oferecem um dispositivo chamado “REPL” (Read-Eval-Print Loop).
+O REPL é um programa que lê expressões ou trechos de programa, “avalia” (ou “executa”) e mostra o resultado. Python, Ruby, Common Lisp, Haskell e a vasta maioria das implementações de Scheme oferecem um REPL. Na prática, a experiência de usar o REPL é semelhante à de interagir com um computador usando linha de comando em um
+terminal
+
 
 ## Algumas Características 
 Sua Flexibilidade é garantida devido a ausência de restrições tornando dessa forma seu porder ilimitado.
@@ -96,7 +102,47 @@ LISTAS PODEM CONTER QUALQUER VALOR INCLUSIVE LISTA DE LISTA
 
 Ex: >`(246810)  ou >(list 249810)
 
+Assim como os vetores, podemos utilizar car e cdr para acessarmos o primeiro elemento e o restante da lista
 
+Ex:>(car(list 249810))
+
+- Expressões condicionais
+Para tomar decisões e escolher uma dentre duas ou mais formas a avaliar, Scheme oferece algumas formas especiais.
+IF : (if(<ab)(squarea squareb)) ou  
+
+(if(<x1x2)(>x2x3)
+    (if(>x1 x2)(<x2x3)
+    
+ COND: 
+  (Cond (condicao1 consequencia1)
+        (condicao2 consequancia2)
+        
+        .
+        .
+        .
+        (else alternativa))
+        
+ CASE:
+ (case arg expr1 expr2 expr3...)
+ 
+ - Operadores lógicas 
+ And, or e not.
+ 
+ - Declarações 
+ 
+ Utilizamos a palavra reservada define para declarar variaveis globais
+ E a SET para alterar variaveis.
+ 
+ Ex: (define a 23)
+     (set! a 6)
+     
+- Let
+Da mesma forma que os argumentos de um procedimento podem ser usados apenas dentro do corpo do procedimento, é possível criar variáveis temporárias acessíveis apenas
+dentro de um trecho de programa Scheme usando a forma especial let.
+
+Ex: ( let (( nome1 valor1)
+            ( nome2 valor2)
+            ...)
 
 ## Palavras-chave
 
