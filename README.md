@@ -100,19 +100,21 @@ Podem ser construidas simplismente colocando os valores desejados entre parentes
 
 LISTAS PODEM CONTER QUALQUER VALOR INCLUSIVE LISTA DE LISTA 
 
-Ex: >`(246810)  ou >(list 249810)
+Ex: ``` >`(246810)  ou >(list 249810) ```
 
 Assim como os vetores, podemos utilizar car e cdr para acessarmos o primeiro elemento e o restante da lista
 
-Ex:>(car(list 249810))
-
+Ex: ```>(car(list 249810))```
+ 
 - Expressões condicionais
 Para tomar decisões e escolher uma dentre duas ou mais formas a avaliar, Scheme oferece algumas formas especiais.
-IF : (if(<ab)(squarea squareb)) ou  
+IF : 
+```
+(if(<ab)(squarea squareb)) ou  
 
 (if(<x1x2)(>x2x3)
     (if(>x1 x2)(<x2x3)
-    
+```    
  COND: 
  ```
   (Cond (condicao1 consequencia1)
