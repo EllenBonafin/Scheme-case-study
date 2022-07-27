@@ -176,7 +176,7 @@ os dígitos de 0 a 9, e
 os caracteres ? ! . + - \* / ⇔: $% ^ & \_ ~ @.
 A lista abaixo contém todas as palavras-chave sintáticas que são definidas quando Scheme é inicializado:
 
-!(keywords)[./assets/keywords.png]
+![keywords](./assets/keywords.png)
 
 ## Operadores
 
