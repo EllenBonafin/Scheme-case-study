@@ -199,6 +199,14 @@ A linguagem Scheme tem suporte para:
 - Criação de Threads, barreiras, travas de exclusão mútua, mutex, semáforos (produtor-consumidor, jantar dos filósofos).
 - Criação de gráficos nos formatos Netpbm e SVG
 
+### NETPBM
+  É uma família de formatos para imagens gráficas. Todos os formatos netpbm representam a imagem como um mapa de pixels. Há formatos para imagens em preto-e-branco (onde a informação armazenada por pixel é zero ou um); para tons de cinza (onde a informação armazenada por pixel é um número correspondente a algum tom de cinza) e para imagens coloridas (onde são armazenados três números por pixel, indicando a quantidade relativa de vermelho, verde e azul). Os formatos Netpbm permitem armazenar a imagem em formato legível por pessoas, onde cada dado relativo a um pixel é escrito usando sua representação numérica em ASCII, ou em formato binário ilegível e mais compacto.
+  
+A tabela a seguir lista os seis formatos Netpbm e suas características:
+
+
+
+
 ## Features da linguagem Scheme
 
 • r7rs: a implementação declara implementar corretamente o padrão R7RS.
