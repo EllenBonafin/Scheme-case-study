@@ -187,8 +187,8 @@ Para processar dados numéricos, Scheme disponibiliza vários Procedimentos Prim
 /  divisão
 então, 5 + 3 se escreve em Scheme como:
 
-+ 5 3
-+ 
+* (+ 5 3)
+* Mais (+) 
 e (5+3) x 2 se escreve da seguinte forma:
 
 (* (+ 5 3) 2)
