@@ -227,7 +227,7 @@ Para o formato P1, a segunda linha contém o número de colunas e o número de l
 
 ![grafico_p1](./assets/grafico_p1.png)
 
-O arquvio acima representa a seguinte figura, em escala maior:
+O arquivo acima representa a seguinte figura, em escala maior:
 
 ![p1_forma](./assets/p1_forma.png)
 
@@ -242,7 +242,7 @@ O exemplo a seguir é semelhante ao usado na seção anterior, mas desta vez usa
 
 ![grafico_p2](./assets/grafico_p2.png)
 
-O arquvio acima representa a seguinte figura, em escala maior:
+O arquivo acima representa a seguinte figura, em escala maior:
 
 ![p2_forma](./assets/p2_forma.png)
 
@@ -254,7 +254,7 @@ Formato semelhante ao P2, com as seguintes diferenças:
 
 ![grafico_p3](./assets/grafico_p3.png)
 
-O arquvio acima representa a seguinte figura, em escala maior:
+O arquivo acima representa a seguinte figura, em escala maior:
 
 ![p3_forma](./assets/p3_forma.png)
 
@@ -350,27 +350,32 @@ Exemplo:
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
           "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg">
+  <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
     
-    <text x="200" y="150"
-          font-family="Consolas"
-          font-size="22"
-          fill="yellow" >
-    Hello, world!
-</text>
+      <text x="200" y="150"
+            font-family="Consolas"
+            font-size="22"
+            fill="yellow" >
+      Hello, world!
+  </text>
 
-<polygon points="0,0 200,200 0,200"
-fill="blue"
-stroke="rgb(255,0,0)"
-stroke-width="3" />
-<ellipse cx="200" cy="100" rx="60" ry="20"
-fill="green"
-stroke="rgb(100,30,200)"
-stroke-width="3" />
+  <polygon points="0,0 200,200 0,200"
+            fill="blue"
+            stroke="rgb(255,0,0)"
+            stroke-width="3" />
+  <ellipse cx="200" cy="100" rx="60" ry="20"
+            fill="green"
+            stroke="rgb(100,30,200)"
+            stroke-width="3" />
 </svg>
 ```
+A figura descrita no arquivo acima é:
+
+
+![imagem_svg](./assets/imagem_svgv.png)
+
 
 ## Features da linguagem Scheme
 
@@ -410,6 +415,3 @@ operacional.
 ``` http://aleph0.info/cursos/pp/notas/scheme.pdf ```
 
 ``` https://www.gnu.org/software/guile/manual/guile.pdf ```
-
-
-
