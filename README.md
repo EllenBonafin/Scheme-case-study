@@ -1,6 +1,6 @@
 # Scheme-case-study
 
-## Estudo de caso da linguagem de programação Scheme desenvolvido para a materia de Linguagens de Programação.
+## Estudo de caso da linguagem de programação Scheme desenvolvido para a matéria de Linguagens de Programação.
 >Colaboradores: Eduarda Elger, Ellen Bonafin, Gustavo Pauli, Heloisa Alves e Pablo Hugen.
 
 # 📌Histórico
@@ -229,7 +229,34 @@ Para o formato P1, a segunda linha contém o número de colunas e o número de l
 
 O arquvio acima representa a seguinte figura, em escala maior:
 
+![p1_forma](./assets/p1_forma.png)
 
+
+#### Formato P2: tonsde cinza, legível
+
+Formato semelhante ao P1, exceto que:
+* Há mais uma linha entre as dimensões da imagem e os pixels, onde existe um único número. Este é o maior número usado para representar tons de cinza na imagem;
+* Ao invés de uns e zeros representando preto e branco, cada entrada é um número representando um tom de cinza: zero representa preto e o maior número representa branco.
+
+O exemplo a seguir é semelhante ao usado na seção anterior, mas desta vez usando tons de cinza.
+
+![grafico_p2](./assets/grafico_p2.png)
+
+O arquvio acima representa a seguinte figura, em escala maior:
+
+![p2_forma](./assets/p2_forma.png)
+
+#### FOrmato P3: em cores, legível
+
+Formato semelhante ao P2, com as seguintes diferenças:
+* O número antes dos pixels representa o maior número usado para representar a quantidade de cada cor;
+* Cada entrada na matriz de pixels é composta por três números em sequência, representando as quantidades de vermelho, verde e azul.
+
+![grafico_p3](./assets/grafico_p3.png)
+
+O arquvio acima representa a seguinte figura, em escala maior:
+
+![p3_forma](./assets/p3_forma.png)
 
 
 ## Features da linguagem Scheme
@@ -266,5 +293,10 @@ operacional.
 • nome-versao: nome e versão da implementação Scheme.
 
 ## Referências
+
+``` http://aleph0.info/cursos/pp/notas/scheme.pdf ```
+
+``` https://www.gnu.org/software/guile/manual/guile.pdf ```
+
 
 
