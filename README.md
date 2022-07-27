@@ -198,6 +198,8 @@ E (5+3) x 2 se escreve da seguinte forma:
 Operadores lógicos: Existem 3 tipos de expressões lógicas, sendo elas, AND, OR e NOT.
 
 * (and(< 2 5)()< 2 4) =>#t
+Operador de comparação:
+A comparação x<y pode ser escrita em Scheme como (< x y). Nessa expressão, < é uma função que retorna #t ou #f, dependendo se x é ou não menor que y. Como o teclado normal de um computador não possui o símbolo , este é escrito como <=. Assim, x y vira (<= x y). Da mesma forma, o predicado  é escrito como >=. Muitas linguagens de programação usam essa mesma sintaxe para esses operadores.
 
 ## Curiosidades
 
