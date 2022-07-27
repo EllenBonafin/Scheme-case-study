@@ -3,7 +3,7 @@
 ## Estudo de caso da linguagem de programação Scheme desenvolvido para a materia de Linguagens de Programação.
 >Colaboradores: Eduarda Elger, Ellen Bonafin, Gustavo Pauli, Heloisa Alves e Pablo Hugen.
 
-# 📌Historico
+# 📌Histórico
 
 Os primórdios da linguagem Scheme ocorreram entre 1975 e 1980, quando foi descrita pela primeira vez no Laboratório de Inteligência Artificial e Ciência da Computação do MIT. Foi criado por Guy Steele e Gerald Sussman a partir da lingugem Lisp com intuito de desenvolver uma lingugem de semantica simples e clara e afim de estudar a teoria dos atores de Carl Hewitt.Sussman e Steele tiveram algumas dificuldades em entender alguns detalhes do modelo de Hewitt e suas consequências, então decidiram experimentá-lo construindo uma implementação de brinquedo da linguagem.
 
@@ -40,7 +40,7 @@ Como o Scheme é uma linguagem de programação multiparadigma o paradigma funci
 
 O paradigma procedural é utilizado muitas vezes como sinônimo de programação imperativa, que especifica os passos que deve seguir para atingir um estado , mas o termo procedural indica que se baseia no numero de chamadas de procedimentos, também conhecidos como rotinas, sub-rotinas ou funções (diferentes das funções matemáticas). Atenta-se que tais procedimentos são similares à avaliação realizada na programação funcional, sendo um conjunto de passos computacionais a serem executados, podendo ser chamado a qualquer hora durante a execução do programa, através de outros procedimentos e até por si mesmo.
 
--> Existem dois padrões que definem a lingugem: O padrão IEEE P1178 e um padrão popular chamado RnRs
+-> Existem dois padrões que definem a lingugem: O padrão IEEE P1178 e um padrão popular chamado RnRs.
 
 # 📌Tour pela lingugem
 
@@ -81,7 +81,7 @@ São representados pelo prefixo #\
 
 ### Symbols
 
-Tratados como identificadores de variaveis, para especificarmos um symbolo usamos a palavra reservada QUOTE ou aspas simples antes do símbolo
+Tratados como identificadores de variaveis, para especificarmos um symbolo usamos a palavra reservada QUOTE ou aspas simples antes do símbolo.
 
 * quote(xyz) ou `E
 
@@ -92,28 +92,28 @@ Não é um tipo simples, ou seja, primitivo como os anteriores, é composta pela
 * (string #\o #\l #\a) ou "Ola"
 
 ### Vetores
-  São sequencias como as strings mas seus elementos podem ser uma sequencia de qualquer tipo e não apenas de caracteres
+  São sequencias como as strings mas seus elementos podem ser uma sequencia de qualquer tipo e não apenas de caracteres.
 
 * (vector 01234)
 
 ### Dotted pair
-  É composto de dois valores arbritarios, sendo o primeiro chamado de car e o segundo de cdr e sua combinaçaão é realizada com a palavra reservada cons
+  É composto de dois valores arbritarios, sendo o primeiro chamado de car e o segundo de cdr e sua combinaçaão é realizada com a palavra reservada cons.
 
 * (cons 1 #t)
 
 ### Listas
 
-Podem ser construidas simplismente colocando os valores desejados entre parenteses e utilizando aspa simples antes do primeiro parentese ou utilizando a palvra reservada list
+Podem ser construídas simplismente colocando os valores desejados entre parenteses e utilizando aspas simples antes do primeiro parêntese ou utilizando a palavra reservada list.
 
-LISTAS PODEM CONTER QUALQUER VALOR INCLUSIVE LISTA DE LISTA
-
-Ex: 
-* `` >`(246810) ou >(list 249810) ``
-
-Assim como os vetores, podemos utilizar car e cdr para acessarmos o primeiro elemento e o restante da lista
+Além disso, listas podem conter qualquer valor, inclusive lista de lista.
 
 Ex: 
-* `>(car(list 249810))`
+`` >`(246810) ou >(list 249810) ``
+
+Assim como os vetores, podemos utilizar car e cdr para acessarmos o primeiro elemento e o restante da lista.
+
+Ex: 
+`>(car(list 249810))`
 
 ## Expressões condicionais
 
@@ -144,7 +144,7 @@ Para tomar decisões e escolher uma dentre duas ou mais formas a avaliar, Scheme
 
 ### Define e Set
 
-Utilizamos a palavra reservada define para declarar variaveis globais e a SET para alterar variaveis.
+Utilizamos a palavra reservada define para declarar variaveis globais e a SET para alterar variáveis.
 
 ```
 (define a 23)
@@ -162,14 +162,15 @@ Da mesma forma que os argumentos de um procedimento podem ser usados apenas dent
 
 ## Palavras-chave
 
-Programas Scheme são feitos de palavras-chave, variáveis, formas estruturadas, os dados constantes (números, caracteres, strings, vetores citados, listas citadas, símbolos citados, etc), espaços em branco e comentários.
+Programas Scheme são feitos de palavras-chave, variáveis, formas estruturadas, dados constantes (números, caracteres, strings, vetores citados, listas citadas, símbolos citados, etc), espaços em branco e comentários.
 
-Palavras-chave, variáveis ​​e símbolos são coletivamente chamados de identificadores. Identificadores pode ser formado a partir da seguinte conjunto de caracteres:
+Palavras-chave, variáveis e símbolos são coletivamente chamados de identificadores. Identificadores pode ser formado a partir da seguinte conjunto de caracteres:
 
-as letras minúsculas de a até z,
-as letras maiúsculas A a Z,
-os dígitos de 0 a 9, e
-os caracteres ? ! . + - \* / ⇔: $% ^ & \_ ~ @.
+* As letras minúsculas de a até z,
+* As letras maiúsculas A a Z,
+* Os dígitos de 0 a 9, e
+* Os caracteres ? ! . + - \* / ⇔: $% ^ & \_ ~ @.
+
 A lista abaixo contém todas as palavras-chave sintáticas que são definidas quando Scheme é inicializado:
 
 ![keywords](./assets/keywords.png)
@@ -177,25 +178,28 @@ A lista abaixo contém todas as palavras-chave sintáticas que são definidas qu
 ## Operadores
 Para processar dados numéricos, Scheme disponibiliza vários Procedimentos Primitivos, como por exemplo, os operadores aritméticos:
 
-+  adição
--  subtracção
-*  multiplicação
-/  divisão
+* (+)  adição
+* (-)  subtracção
+* (*)  multiplicação
+* (/)  divisão
 
-então, 5 + 3 se escreve em Scheme como:
+Então, 5 + 3 se escreve em Scheme como:
 
-* (+ 5 3)
-* Mais (+) 
+`` (+ 5 3) ``
+
+`` + ``
 
 E (5+3) x 2 se escreve da seguinte forma:
 
-* (* (+ 5 3) 2)
+`` (* (+ 5 3) 2) ``
 
-Operadores lógicos: Existem 3 tipos de expressões lógicas, sendo elas, AND, OR e NOT.
+### Operadores lógicos
 
-* (and(< 2 5)()< 2 4) =>#t
-* 
-Operador de comparação:
+Existem 3 tipos de expressões lógicas, sendo elas, AND, OR e NOT.
+
+`` (and(< 2 5)()< 2 4) =>#t ``
+
+### Operador de comparação:
 
 A comparação x<y pode ser escrita em Scheme como (< x y). Nessa expressão, < é uma função que retorna #t ou #f, dependendo se x é ou não menor que y. Como o teclado normal de um computador não possui o símbolo , este é escrito como <=. Assim, x y vira (<= x y). Da mesma forma, o predicado  é escrito como >=. Muitas linguagens de programação usam essa mesma sintaxe para esses operadores.
 
