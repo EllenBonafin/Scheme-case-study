@@ -258,6 +258,69 @@ O arquvio acima representa a seguinte figura, em escala maior:
 
 ![p3_forma](./assets/p3_forma.png)
 
+### SVG
+
+SVG é um formato para descrição de imagens vetoriais em duas dimensões desenvolvido pelo W3C. A especificação completa do formato SVG é demasiado longa para ser incluída neste Apêndice, que traz apenas uma descrição básica. Gráficos SVG são armazenados em um arquivo XML.
+
+#### Tamanho da imagem
+
+Como SVG é um formato para gráficos vetoriais, as distâncias e tamanhos podem ser relativos (sem unidade definida). O tamanho da imagem pode ser determinado para cada gráfico SVG usando algumas das unidades de medida suportadas: ex, px, pt, cm, mm, in, e porcentagens.
+
+```
+<svg xmlns='http://www.w3.org/2000/svg'
+     width="100px" height="200px" version="1.1">
+```
+
+#### Estilo
+
+Há uma grande quantidade de atributos de estilo que podem ser usadas em elementos SVG. Por exemplo:
+* stroke: a cor do traçado;
+* stroke-width: a largura do traçado;
+* fill: a cor da parte interna da figura, se ela for fechada;
+* font-family: a família da fonte (para elementos de texto);
+* font-size: o tamanho da fonte (para elementos de texto).
+
+Cores podem ser especificadas usando seus nomes ou seus componentes de vermelho, verde e azul. Por exemplo, fill="blue" é o mesmo que fill="rgb(0,0,255)" e fill="#0000ff".
+
+#### Elementos básicos
+
+O elemento ` line ` desenha um segmento de reta entre dois pontos (x_1, y_1) e (x_2, y_2).
+
+```
+<line x1="0" y1="0" x2="300" y2="300"
+      stroke="rgb(99,99,99)"
+      stroke-width="2" />
+```
+
+Desenhamos retângulos com o elemento `rect `
+
+```
+<rect width="300" height="100"
+      fill="rgb(0,0,255)"
+      stroke-width="2"
+      stroke="rgb(0,0,0)" />
+```
+
+Para desenhar um círculo, usamos o elemento ` circle ` com atributos ` cx, cy ` para o centro e ` r ` para o raio.
+
+```
+<circle cx="100" cy="50" r="40"
+        stroke="black"
+        stroke-width="2"
+        fill="red" />
+```
+
+Elipses podem ser desenhadas com o elemento ` ellipse `, usando ` cx, cy ` para o centro e ` rx, ry ` para os dois raios (nos eixos x e y).
+
+```
+<ellipse cx="300" cy="150" rx="200" ry="80"
+         fill="rgb(200,100,50)"
+         stroke="rgb(0,0,100)"
+         stroke-width="2" />
+```
+
+
+
 
 ## Features da linguagem Scheme
 
