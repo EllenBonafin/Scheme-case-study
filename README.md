@@ -154,6 +154,15 @@ Ex:
  ```
 
 ## Palavras-chave
+Programas Scheme são feitos de palavras-chave, variáveis, formas estruturadas, os dados constantes (números, caracteres, strings, vetores citados, listas citadas, símbolos citados, etc), espaços em branco e comentários.
+
+Palavras-chave, variáveis ​​e símbolos são coletivamente chamados de identificadores. Identificadores pode ser formado a partir da seguinte conjunto de caracteres:
+
+as letras minúsculas de a até z,
+as letras maiúsculas A a Z,
+os dígitos de 0 a 9, e
+os caracteres ? ! . + - * / ⇔: $% ^ & _ ~ @.
+A lista abaixo contém todas as palavras-chave sintáticas que são definidas quando Scheme é inicializado:
 
 ## Operadores
 
