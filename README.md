@@ -13,7 +13,7 @@ Scheme é uma versão estática e recursiva da linguagem de programação. Ela f
 
 Scheme foi uma das primeiras linguagens de programação a introduzir o lambda cálculo nos métodos da classe principal. Também possibilita a usabilidade de regras de escopo estático e estruturas em bloco em uma linguagem tipada.
 
-# 📌Objetivos, Contextualização e Características
+# 📌Objetivos, contextualização e características
 
 Scheme é uma linguagem de programação multiparadigma que suporta programação funcional e procedural.
 
@@ -41,7 +41,7 @@ O paradigma procedural é utilizado muitas vezes como sinônimo de programação
 
 -> Existem dois padrões que definem a lingugem: O padrão IEEE P1178 e um padrão popular chamado RnRs.
 
-# 📌Tour pela lingugem
+# 📌Tour pela linguagem
 
 ## Instalação e execução
 
