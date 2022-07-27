@@ -373,9 +373,7 @@ Exemplo:
 ```
 A figura descrita no arquivo acima é:
 
-
-![imagem_svg](./assets/imagem_svgv.png)
-
+![imagem_svg](./assets/imagem_svg.png)
 
 ## Features da linguagem Scheme
 
