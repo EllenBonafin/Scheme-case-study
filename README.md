@@ -41,7 +41,9 @@ O paradigma procedural é utilizado muitas vezes como sinônimo de programação
 
 # Tour pela lingugem 
 
-## Instalação
+## Instalação e execução
+* apt install guile-3.o
+* guile
 
 ## Tipos de dados básicos
 - Boolean
