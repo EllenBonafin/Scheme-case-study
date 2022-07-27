@@ -1,6 +1,7 @@
-﻿# Scheme-case-study
+# Scheme-case-study
 
-Estudo de caso da linguagem de programação Scheme desenvolvido para a materia de LP
+## Estudo de caso da linguagem de programação Scheme desenvolvido para a materia de Linguagens de Programação.
+>Colaboradores: Eduarda Elger, Ellen Bonafin, Gustavo Pauli, Heloisa Alves e Pablo Hugen.
 
 # 📌Historico
 
@@ -18,8 +19,7 @@ Scheme é uma linguagem de programação multiparadigma que suporta programaçã
 
 # Ambiente de programação
 
-Muitas linguagens oferecem um dispositivo chamado “REPL” (Read-Eval-Print Loop).
-O REPL é um programa que lê expressões ou trechos de programa, “avalia” (ou “executa”) e mostra o resultado. Python, Ruby, Common Lisp, Haskell e a vasta maioria das implementações de Scheme oferecem um REPL. Na prática, a experiência de usar o REPL é semelhante à de interagir com um computador usando linha de comando em um
+Muitas linguagens oferecem um dispositivo chamado “REPL” (Read-Eval-Print Loop). O REPL é um programa que lê expressões ou trechos de programa, “avalia” (ou “executa”) e mostra o resultado. Python, Ruby, Common Lisp, Haskell e a vasta maioria das implementações de Scheme oferecem um REPL. Na prática, a experiência de usar o REPL é semelhante à de interagir com um computador usando linha de comando em um
 terminal
 
 ## Algumas Características
@@ -42,7 +42,7 @@ O paradigma procedural é utilizado muitas vezes como sinônimo de programação
 
 -> Existem dois padrões que definem a lingugem: O padrão IEEE P1178 e um padrão popular chamado RnRs
 
-# Tour pela lingugem
+# 📌Tour pela lingugem
 
 ## Instalação e execução
 
@@ -51,67 +51,69 @@ O paradigma procedural é utilizado muitas vezes como sinônimo de programação
 
 ## Tipos de dados básicos
 
-- Boolean
+### Boolean
 
-#t=True - Qualquer coisa diferente de zero e lista vazia
+* #t=True - Qualquer coisa diferente de zero e lista vazia
 
-#f=False - Zero ou lista vazia
+* #f=False - Zero ou lista vazia
 
-- Numbers
+### Numbers
 
-Numero = ex: 22
+* Numero = ex: 22
 
-Complex = ex: (2+3i)
+* Complex = ex: (2+3i)
 
-Real = ex: (2,8954)
+* Real = ex: (2,8954)
 
-Racional = ex: (2,8954) (22/2)
+* Racional = ex: (2,8954) (22/2)
 
-Inteiro = ex: 23
+* Inteiro = ex: 23
 
-Numero=Complex=Real=Racional=Inteiro
+* Numero=Complex=Real=Racional=Inteiro
 
-- Caracteres
+### Caracteres
 
 São representados pelo prefixo #\
 
-#\c = caracatere
+* #\c = caracatere
 
-#\New Line e #\space = espaço em branco
+* #\New Line e #\space = espaço em branco
 
-- Symbols
+### Symbols
 
 Tratados como identificadores de variaveis, para especificarmos um symbolo usamos a palavra reservada QUOTE ou aspas simples antes do símbolo
 
-Ex: quote(xyz) ou `E
+* quote(xyz) ou `E
 
-- Strings
+### Strings
 
 Não é um tipo simples, ou seja, primitivo como os anteriores, é composta pela combinação de caracteres sendo assim uma sequencia de caracteres de modo estruturado e ente aspas dulpas "".
 
-Ex: (string #\o #\l #\a) ou "Ola"
+* (string #\o #\l #\a) ou "Ola"
 
-- Vetores
+### Vetores
   São sequencias como as strings mas seus elementos podem ser uma sequencia de qualquer tipo e não apenas de caracteres
 
-Ex: (vector 01234)
+* (vector 01234)
 
-- Dotted pair
+### Dotted pair
   É composto de dois valores arbritarios, sendo o primeiro chamado de car e o segundo de cdr e sua combinaçaão é realizada com a palavra reservada cons
 
-Ex: (cons 1 #t)
+* (cons 1 #t)
 
-- Listas
+### Listas
 
 Podem ser construidas simplismente colocando os valores desejados entre parenteses e utilizando aspa simples antes do primeiro parentese ou utilizando a palvra reservada list
 
 LISTAS PODEM CONTER QUALQUER VALOR INCLUSIVE LISTA DE LISTA
 
-Ex: `` >`(246810) ou >(list 249810) ``
+Ex: 
+* `` >`(246810) ou >(list 249810) ``
 
 Assim como os vetores, podemos utilizar car e cdr para acessarmos o primeiro elemento e o restante da lista
 
-Ex: `>(car(list 249810))`
+Ex: 
+* `>(car(list 249810))`
 
 - Expressões condicionais
   Para tomar decisões e escolher uma dentre duas ou mais formas a avaliar, Scheme oferece algumas formas especiais.
