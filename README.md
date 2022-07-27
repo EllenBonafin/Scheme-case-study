@@ -319,8 +319,58 @@ Elipses podem ser desenhadas com o elemento ` ellipse `, usando ` cx, cy ` para 
          stroke-width="2" />
 ```
 
+Um polígono é desenhado com o elemento ` polygon ` . O atributo ` points ` é a lista de pontos que definem o polígono.
 
+```
+<polygon points="220,100 300,210 170,250"
+         fill="#cccccc"
+         stroke="#000000"
+         stroke-width="1" /
+```
 
+O elemento ` path ` contém um atributo ` d ` quec contém os dados do caminho ` M ` é um ` moveto `, ` L ` é um ` lineto ` e ` Z ` termina o caminho. 
+
+```
+<path d="M250 150 L150 350 L350 350 Z" />
+```
+
+Para incluir texto em um arquivo SVG há o elemento ` text `:
+
+```
+<text x="200" y="150"
+      font-family="Courier"
+      font-size="22"
+      fill="yellow" >
+   Hello, world!
+</text>
+```
+
+Exemplo:
+```
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+          "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg">
+    
+    <text x="200" y="150"
+          font-family="Consolas"
+          font-size="22"
+          fill="yellow" >
+    Hello, world!
+</text>
+
+<polygon points="0,0 200,200 0,200"
+fill="blue"
+stroke="rgb(255,0,0)"
+stroke-width="3" />
+<ellipse cx="200" cy="100" rx="60" ry="20"
+fill="green"
+stroke="rgb(100,30,200)"
+stroke-width="3" />
+</svg>
+```
 
 ## Features da linguagem Scheme
 
