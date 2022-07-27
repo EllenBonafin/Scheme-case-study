@@ -157,6 +157,8 @@ Ex:
 
 ## Sentenças
 
+## Curiosidades
+
 ## Features da linguagem Scheme
 • r7rs: a implementação declara implementar corretamente o padrão R7RS.
 
