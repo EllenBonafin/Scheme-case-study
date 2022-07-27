@@ -207,9 +207,9 @@ A comparação x<y pode ser escrita em Scheme como (< x y). Nessa expressão, < 
 
 A linguagem Scheme tem suporte para:
 
-- Programação Genética método pelo qual é inspirado na Teoria da Evolução natural de Darwin: cada programa é visto como um indivíduo em uma população.
-- Criação de Threads, barreiras, travas de exclusão mútua, mutex, semáforos (produtor-consumidor, jantar dos filósofos).
-- Criação de gráficos nos formatos Netpbm e SVG
+- Programação Genética método pelo qual é inspirado na Teoria da Evolução natural de Darwin (cada programa é visto como um indivíduo em uma população).
+- Programação concorrente: Criação de Threads, mutex, memória compartilhada: travas de exclusão mútua, barreiras, semáforos (produtor-consumidor, jantar dos filósofos).
+- Criação de gráficos nos formatos Netpbm e SVG.
 
 ### Netpbm
 
@@ -218,6 +218,17 @@ A linguagem Scheme tem suporte para:
 A tabela a seguir lista os seis formatos Netpbm e suas características:
 
 ![graficos_tabela](./assets/graficos_tabela.png)
+
+Todos os formatos iniciam com uma linha onde há apenas o nome do formato, em ASCII (P1, P2, etc).
+
+#### Formato P1: preto e branco, legível
+
+Para o formato P1, a segunda linha contém o número de colunas e o número de linhas da imagem, e os próximos números (separados por espaços) são zero ou um, representando os bits da imagem. O exemplo a seguir é uma imagem de um triângulo:
+
+![grafico_p1](./assets/grafico_p1.png)
+
+O arquvio acima representa a seguinte figura, em escala maior:
+
 
 
 
@@ -253,3 +264,7 @@ operacional.
 • nome: o nome da implementação Scheme.
 
 • nome-versao: nome e versão da implementação Scheme.
+
+## Referências
+
+
