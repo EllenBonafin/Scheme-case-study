@@ -115,9 +115,11 @@ Assim como os vetores, podemos utilizar car e cdr para acessarmos o primeiro ele
 Ex: 
 * `>(car(list 249810))`
 
-- Expressões condicionais
-  Para tomar decisões e escolher uma dentre duas ou mais formas a avaliar, Scheme oferece algumas formas especiais.
-  IF :
+## Expressões condicionais
+
+Para tomar decisões e escolher uma dentre duas ou mais formas a avaliar, Scheme oferece algumas formas especiais.
+  
+### IF
 
 ```
 (if(<ab)(squarea squareb)) ou
@@ -125,8 +127,7 @@ Ex:
 (if(<x1x2)(>x2x3)
     (if(>x1 x2)(<x2x3)
 ```
-
-COND:
+### COND
 
 ```
  (Cond (condicao1 consequencia1)
@@ -136,29 +137,22 @@ COND:
        (else alternativa))
 ```
 
-CASE:
-(case arg expr1 expr2 expr3...)
+### CASE
+* (case arg expr1 expr2 expr3...)
 
-- Operadores lógicas
-  And, or e not.
+## Palavras reservadas
 
-- Declarações
+### Define e Set
 
-Utilizamos a palavra reservada define para declarar variaveis globais
-E a SET para alterar variaveis.
-
-Ex:
+Utilizamos a palavra reservada define para declarar variaveis globais e a SET para alterar variaveis.
 
 ```
 (define a 23)
     (set! a 6)
 ```
 
-- Let
-  Da mesma forma que os argumentos de um procedimento podem ser usados apenas dentro do corpo do procedimento, é possível criar variáveis temporárias acessíveis apenas
-  dentro de um trecho de programa Scheme usando a forma especial let.
-
-Ex:
+### Let
+Da mesma forma que os argumentos de um procedimento podem ser usados apenas dentro do corpo do procedimento, é possível criar variáveis temporárias acessíveis apenas dentro de um trecho de programa Scheme usando a forma especial let.
 
 ```
 ( let (( nome1 valor1)
