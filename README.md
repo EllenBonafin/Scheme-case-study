@@ -178,7 +178,7 @@ A lista abaixo contém todas as palavras-chave sintáticas que são definidas qu
 Para processar dados numéricos, Scheme disponibiliza vários procedimentos primitivos, como por exemplo, os operadores aritméticos:
 
 * (+)  adição
-* (-)  subtracção
+* (-)  subtração
 * (*)  multiplicação
 * (/)  divisão
 
@@ -231,7 +231,7 @@ O arquivo acima representa a seguinte figura, em escala maior:
 ![p1_forma](./assets/p1_forma.png)
 
 
-#### Formato P2: tonsde cinza, legível
+#### Formato P2: tons de cinza, legível
 
 Formato semelhante ao P1, exceto que:
 * Há mais uma linha entre as dimensões da imagem e os pixels, onde existe um único número. Este é o maior número usado para representar tons de cinza na imagem;
