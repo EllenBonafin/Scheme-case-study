@@ -189,7 +189,8 @@ então, 5 + 3 se escreve em Scheme como:
 + 5 3
 e (5+3) x 2 se escreve da seguinte forma:
 (* (+ 5 3) 2)
-## Sentenças
+Operadores lógicos: Existem 3 tipos de expressões lógicas, sendo elas, AND, OR e NOT.
+Exemplo: (and(< 2 5)()< 2 4) =>#t
 
 ## Curiosidades
 
@@ -198,14 +199,6 @@ A linguagem Scheme tem suporte para:
 - Programação Genética método pelo qual é inspirado na Teoria da Evolução natural de Darwin: cada programa é visto como um indivíduo em uma população.
 - Criação de Threads, barreiras, travas de exclusão mútua, mutex, semáforos (produtor-consumidor, jantar dos filósofos).
 - Criação de gráficos nos formatos Netpbm e SVG
-
-### NETPBM
-  É uma família de formatos para imagens gráficas. Todos os formatos netpbm representam a imagem como um mapa de pixels. Há formatos para imagens em preto-e-branco (onde a informação armazenada por pixel é zero ou um); para tons de cinza (onde a informação armazenada por pixel é um número correspondente a algum tom de cinza) e para imagens coloridas (onde são armazenados três números por pixel, indicando a quantidade relativa de vermelho, verde e azul). Os formatos Netpbm permitem armazenar a imagem em formato legível por pessoas, onde cada dado relativo a um pixel é escrito usando sua representação numérica em ASCII, ou em formato binário ilegível e mais compacto.
-  
-A tabela a seguir lista os seis formatos Netpbm e suas características:
-
-
-
 
 ## Features da linguagem Scheme
 
