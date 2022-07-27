@@ -179,7 +179,16 @@ A lista abaixo contém todas as palavras-chave sintáticas que são definidas qu
 ![keywords](./assets/keywords.png)
 
 ## Operadores
+Para processar dados numéricos, Scheme disponibiliza vários Procedimentos Primitivos, como por exemplo, os operadores aritméticos:
 
++  adição
+-  subtracção
+*  multiplicação
+/  divisão
+então, 5 + 3 se escreve em Scheme como:
++ 5 3
+e (5+3) x 2 se escreve da seguinte forma:
+(* (+ 5 3) 2)
 ## Sentenças
 
 ## Curiosidades
