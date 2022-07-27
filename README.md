@@ -158,6 +158,10 @@ Ex:
 ## Sentenças
 
 ## Curiosidades
+A linguagem Scheme tem suporte para:
+* Programação Genética método pelo qual é inspirado na Teoria da Evolução natural de Darwin: cada programa é visto como um indivíduo em uma população.
+* Criação de Threads, barreiras, travas de exclusão mútua, mutex, semáforos (produtor-consumidor, jantar dos filósofos).
+* Criação de gráficos nos formatos Netpbm e SVG
 
 ## Features da linguagem Scheme
 • r7rs: a implementação declara implementar corretamente o padrão R7RS.
