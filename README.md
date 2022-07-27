@@ -186,10 +186,15 @@ Para processar dados numéricos, Scheme disponibiliza vários Procedimentos Prim
 *  multiplicação
 /  divisão
 então, 5 + 3 se escreve em Scheme como:
+
 + 5 3
++ 
 e (5+3) x 2 se escreve da seguinte forma:
+
 (* (+ 5 3) 2)
+
 Operadores lógicos: Existem 3 tipos de expressões lógicas, sendo elas, AND, OR e NOT.
+
 Exemplo: (and(< 2 5)()< 2 4) =>#t
 
 ## Curiosidades
