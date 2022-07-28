@@ -1,7 +1,7 @@
 # Scheme-case-study
 
 ## Estudo de caso da linguagem de programação Scheme desenvolvido para a matéria de Linguagens de Programação.
->Colaboradores: Eduarda Elger, Ellen Bonafin, Gustavo Pauli, Heloisa Alves e Pablo Hugen.
+>Colaboradores: Eduarda Elger ([GitHub Profile](https://github.com/EduardaElger)), Ellen Bonafin ([GitHub Profile](https://github.com/EllenBonafin)), Gustavo Pauli ([GitHub Profile](https://github.com/GusPauli)), Heloisa Alves ([GitHub Profile](https://github.com/Helogizzy)) e Pablo Hugen ([GitHub Profile](https://github.com/Tomcat-42)).
 
 # 📌Histórico
 
